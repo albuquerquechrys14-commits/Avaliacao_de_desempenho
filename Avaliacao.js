@@ -9,7 +9,8 @@ let cargo = readline.question ("Cargo do funcionario: ")
 let salario = readline.questionFloat ("Salario base: ")
 let resultado = readline.questionFloat ("Resultado alcançado no período (R$): ")
 
-let diferenca = meta - resultado
+let diferenca = meta - resultado //alu
+
 if (resultado >= meta) {
     console.log (`Parabéns ${funcionario}! Você atingiu a meta de vendas e receberá um bônus de 10% sobre o salário base.`)
 }else {
